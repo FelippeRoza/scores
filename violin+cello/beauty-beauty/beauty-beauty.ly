@@ -45,6 +45,7 @@ violinOne = \new Voice \relative c'' {
   e2 e
   c4 d e c
   d1
+  d
 
   \bar "|."
 }
@@ -53,10 +54,40 @@ cello = \new Voice \relative c' {
   \set Staff.instrumentName = #"Cello "
   \clef bass
 
-  c2 b
+  a,1
+  a
+  f'
+  f
+  c
+  c
+  b
+  g2 b
   a1
+  a
+  f'
+  e2 f
+  c1
+  d2 c
+  e1
+  d2 c4 e
+  e2 e
+  c4 d e f
+  e2 e
+  c4 d e f
+  e2 e
+  c4 d e c
+  d2. c4
+  b2 gis
+  a4 a a a
+  a a a g
+  f f f f
+  f f g b
+  c c c c
+  c c d c
+  b2 b
+  gis gis
 
- % \bar "|."
+  \bar "|."
 }
 
 \score {
